@@ -7,7 +7,7 @@ private:
 	std::string color;
 public:
 
-	//constructor 
+	//Constructor 
 	//no default constructor
 	shape()=delete;
 	shape(std::string c);
@@ -24,5 +24,8 @@ public:
 
 	//Erase
 	virtual void erase();
+	
+	// Defaul destructor  is enough in this case
+	~shape();
 };
 
