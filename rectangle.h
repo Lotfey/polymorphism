@@ -12,5 +12,6 @@ public:
     int area();
     void draw();
     void erase();
+    ~rectangle();
 };
 
