@@ -12,4 +12,5 @@ public:
     int area();
     void draw();
     void erase();
+    ~circle();
 };
